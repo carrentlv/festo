@@ -5,22 +5,15 @@
 
 
 
-.hero-art-image{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:transparent;
-}
+.hero-art-image{display:flex;align-items:center;justify-content:center;background:transparent;padding-right:40px;}
 
-.hero-logo{
-  width:320px;
-  max-width:100%;
-  height:auto;
-  background:transparent;
-  filter:drop-shadow(0 16px 32px rgba(0,0,0,.35));
-}
+.hero-logo{width:260px;max-width:100%;height:auto;background:transparent;filter:drop-shadow(0 16px 32px rgba(0,0,0,.35));}
 
-.hero-art-image .hero-note{
-  right:8px;
-  bottom:-4px;
+.hero-art-image .hero-note{right:0;bottom:-6px;}
+
+
+@media (min-width: 1024px){
+  .hero-logo{
+    width:240px;
+  }
 }
