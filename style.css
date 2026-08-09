@@ -49,7 +49,7 @@
   border:1px solid rgba(255,255,255,.06);
   border-radius:20px;
   overflow:hidden;
-  transition:transform .25s ease, border-color .25s ease;
+  transition:transform .25s ease,border-color .25s ease;
 }
 
 .gallery-card:hover{
